@@ -1,3 +1,6 @@
 for (var a = 1; a <= 100; a = a+10){
-document.write(a  + "<br>");
+    for(var b = a; b < a + 10; b++){
+document.write(b + " ");
+}
+document.write( "<br>");   // para que salga
 }
